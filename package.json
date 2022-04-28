@@ -1,0 +1,19 @@
+{
+  "name": "ddos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mtproto/core": "^6.1.1",
+    "delay": "^5.0.0",
+    "net-ping": "^1.2.3",
+    "request": "^2.88.2",
+    "telegram-mtproto": "^1.0.5",
+    "whoiser": "^1.13.1"
+  }
+}

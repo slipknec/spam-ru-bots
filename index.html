@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Spam ru bots</title>
+</head>
+<body>
+    <header>
+        <h2>Spam ru bots</h2>
+    </header>
+    <main>
+        <div class="wrapper">
+            <div class="photoOuter">
+                <img src="" alt="" class="generatedImg">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" class="generatedText" placeholder="Press the button 'Generate'"></textarea>
+    
+            <div class="btns">
+                <button class="btnGenerate">Generate</button>
+                <button class="btnCopyText">Copy text</button>
+                <!-- <button class="btnCopyImage">Copy image</button> -->
+            </div>
+    
+            <div class="notes">
+                <p><b>!Note:</b> К сожалению нет возможности скопировать картинку в буффер автоматически. Сделайте это вручную: Клик ПКМ по картинке -> Скопировать изображение</p>
+                <p><b>!Note:</b> Ошибки в словах допущены специально</p>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+
+    <div class="banner">
+        <div class="successCopy">
+            <p>Successful copied!</p>
+        </div>
+        <div class="errorCopy">
+            <p>Error per try to copy :(</p>
+        </div>
+    </div>
+
+    <script src="./utils.js"></script>
+    <script src="./generateRandomText.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
